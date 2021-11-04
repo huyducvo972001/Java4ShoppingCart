@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+    .heading{
+        background-color: rgb(187, 30, 30);
+        position: relative;
+    }
+    .form-control-borderless{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        width: 300px;
+        position: absolute;
+        top: 10px;
+        left: 400px;
+    }
+    .search{
+        position: absolute;
+        top: 17px;
+        left: 670px;
+        font-size: 20px;
+    }
+    .list-item{
+        position: absolute;
+        top: 0px;
+        right: 200px;
+    }
+    .list-item button{
+        height: 54px;
+        background-color: rgb(187, 30, 30) !important;
+        border: none;
+        border-radius: 0;
+        color: white;
+        
+    }
+    .list-item button:hover{
+        background-color: white !important;
+        color: rgb(187, 30, 30) !important;
+    }
+    .intro{
+        margin-top: 20px;
+    }
+    
+    .prod{
+        border: 1px solid rgb(238, 231, 231);
+        padding-top: 30px;
+        padding-bottom: 30px;           
+        
+    }
+    .describe li{
+        font-size: 13px;
+    }
+    .prod img{
+        transition: transform .4s; 
+    }
+    .prod img:hover{
+        transform: scale(1.05);
+        
+    }
+    .prod a{
+        text-decoration: none;
+        color: #000;
+    }
+    body{
+        background-color: rgb(230, 240, 240);
+    }
+    .footer li{
+        list-style: none;
+        color: #000;
+    }
+    .footer a{
+        text-decoration: none;
+        color: #000;
+        line-height: 30px;
+    }
+    .footer a:hover{           
+        color: blueviolet;
+    }
+    .company img{
+        border: 1px solid rgb(228, 211, 211);
+        border-radius: 20px;
+        padding: 7px 17px 7px 17px;
+        transition: 0.3s;
+        margin-right: 8px;
+        margin-top: 8px;
+    }
+    .company img:hover{
+        border: 1px solid rgb(74, 42, 212);
+        cursor: pointer;
+    }
